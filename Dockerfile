@@ -2,7 +2,7 @@
 # Presto DB
 #
 
-FROM docker/java-oracle8
+FROM docker/java-oracle7
 
 MAINTAINER David Medinets "david.medinets@gmail.com"
 

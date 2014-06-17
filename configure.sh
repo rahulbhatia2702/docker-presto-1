@@ -16,6 +16,8 @@ cat << EOF > /presto-server-0.69/etc/jvm.config
 -XX:+CMSClassUnloadingEnabled
 -XX:+AggressiveOpts
 -XX:+HeapDumpOnOutOfMemoryError
+-XX:PermSize=150M
+-XX:MaxPermSize=150M
 -XX:OnOutOfMemoryError=kill -9 %p
 -XX:ReservedCodeCacheSize=150M
 -Xbootclasspath/p:/presto-server-0.69/lib/floatingdecimal-0.1.jar
