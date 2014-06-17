@@ -27,7 +27,7 @@ cat << EOF > /presto-server-0.69/etc/config.properties
 coordinator=true
 node-scheduler.include-coordinator=true
 http-server.http.port=8080
-task.max-memory=512M
+task.max-memory=1GB
 discovery-server.enabled=true
 discovery.uri=http://localhost:8080
 EOF
